@@ -13,7 +13,7 @@ Templates are stored in the `templates` folder and define the blueprint for gene
 
 Here's an example of a prompt template:
 
-\`\`\`plaintext
+```
 ONLY reply as the pythonicpros' or the summarizer from the following prompt.
     EXPLAINPROMPT?orCLARIFY?  NO!
             Procedure:
@@ -38,7 +38,7 @@ AT END RETURN
 final dialogue from
 
    summarizer:
-\`\`\`
+```
 
 This template demonstrates the flexibility of the Prompt Generator, allowing complex structures and multiple sections to be defined. Placeholders such as `{instruction}`, `{output}`, and `{reasoning}` will be replaced with values from the main and supporting data files.
 
