@@ -1,0 +1,3012 @@
+[
+  {
+    "instruction": "Create a function to add two numbers.",
+    "input": "a = 5, b = 10",
+    "output": "def add(a, b):\n  return a + b"
+  },
+  {
+    "instruction": "Write a function to concatenate two strings.",
+    "input": "str1 = \"Hello\", str2 = \"World\"",
+    "output": "def concat(str1, str2):\n  return str1 + \" \" + str2"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 1)",
+    "input": "a = 1, b = 2",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=1, b=2 is 2"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 2)",
+    "input": "a = 2, b = 4",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=2, b=4 is 8"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 3)",
+    "input": "a = 3, b = 6",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=3, b=6 is 18"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 4)",
+    "input": "a = 4, b = 8",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=4, b=8 is 32"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 5)",
+    "input": "a = 5, b = 10",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=5, b=10 is 50"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 6)",
+    "input": "a = 6, b = 12",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=6, b=12 is 72"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 7)",
+    "input": "a = 7, b = 14",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=7, b=14 is 98"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 8)",
+    "input": "a = 8, b = 16",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=8, b=16 is 128"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 9)",
+    "input": "a = 9, b = 18",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=9, b=18 is 162"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 10)",
+    "input": "a = 10, b = 20",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=10, b=20 is 200"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 11)",
+    "input": "a = 11, b = 22",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=11, b=22 is 242"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 12)",
+    "input": "a = 12, b = 24",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=12, b=24 is 288"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 13)",
+    "input": "a = 13, b = 26",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=13, b=26 is 338"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 14)",
+    "input": "a = 14, b = 28",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=14, b=28 is 392"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 15)",
+    "input": "a = 15, b = 30",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=15, b=30 is 450"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 16)",
+    "input": "a = 16, b = 32",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=16, b=32 is 512"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 17)",
+    "input": "a = 17, b = 34",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=17, b=34 is 578"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 18)",
+    "input": "a = 18, b = 36",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=18, b=36 is 648"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 19)",
+    "input": "a = 19, b = 38",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=19, b=38 is 722"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 20)",
+    "input": "a = 20, b = 40",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=20, b=40 is 800"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 21)",
+    "input": "a = 21, b = 42",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=21, b=42 is 882"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 22)",
+    "input": "a = 22, b = 44",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=22, b=44 is 968"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 23)",
+    "input": "a = 23, b = 46",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=23, b=46 is 1058"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 24)",
+    "input": "a = 24, b = 48",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=24, b=48 is 1152"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 25)",
+    "input": "a = 25, b = 50",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=25, b=50 is 1250"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 26)",
+    "input": "a = 26, b = 52",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=26, b=52 is 1352"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 27)",
+    "input": "a = 27, b = 54",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=27, b=54 is 1458"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 28)",
+    "input": "a = 28, b = 56",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=28, b=56 is 1568"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 29)",
+    "input": "a = 29, b = 58",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=29, b=58 is 1682"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 30)",
+    "input": "a = 30, b = 60",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=30, b=60 is 1800"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 31)",
+    "input": "a = 31, b = 62",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=31, b=62 is 1922"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 32)",
+    "input": "a = 32, b = 64",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=32, b=64 is 2048"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 33)",
+    "input": "a = 33, b = 66",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=33, b=66 is 2178"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 34)",
+    "input": "a = 34, b = 68",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=34, b=68 is 2312"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 35)",
+    "input": "a = 35, b = 70",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=35, b=70 is 2450"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 36)",
+    "input": "a = 36, b = 72",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=36, b=72 is 2592"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 37)",
+    "input": "a = 37, b = 74",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=37, b=74 is 2738"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 38)",
+    "input": "a = 38, b = 76",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=38, b=76 is 2888"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 39)",
+    "input": "a = 39, b = 78",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=39, b=78 is 3042"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 40)",
+    "input": "a = 40, b = 80",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=40, b=80 is 3200"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 41)",
+    "input": "a = 41, b = 82",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=41, b=82 is 3362"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 42)",
+    "input": "a = 42, b = 84",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=42, b=84 is 3528"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 43)",
+    "input": "a = 43, b = 86",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=43, b=86 is 3698"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 44)",
+    "input": "a = 44, b = 88",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=44, b=88 is 3872"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 45)",
+    "input": "a = 45, b = 90",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=45, b=90 is 4050"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 46)",
+    "input": "a = 46, b = 92",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=46, b=92 is 4232"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 47)",
+    "input": "a = 47, b = 94",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=47, b=94 is 4418"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 48)",
+    "input": "a = 48, b = 96",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=48, b=96 is 4608"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 49)",
+    "input": "a = 49, b = 98",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=49, b=98 is 4802"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 50)",
+    "input": "a = 50, b = 100",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=50, b=100 is 5000"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 51)",
+    "input": "a = 51, b = 102",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=51, b=102 is 5202"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 52)",
+    "input": "a = 52, b = 104",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=52, b=104 is 5408"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 53)",
+    "input": "a = 53, b = 106",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=53, b=106 is 5618"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 54)",
+    "input": "a = 54, b = 108",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=54, b=108 is 5832"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 55)",
+    "input": "a = 55, b = 110",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=55, b=110 is 6050"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 56)",
+    "input": "a = 56, b = 112",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=56, b=112 is 6272"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 57)",
+    "input": "a = 57, b = 114",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=57, b=114 is 6498"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 58)",
+    "input": "a = 58, b = 116",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=58, b=116 is 6728"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 59)",
+    "input": "a = 59, b = 118",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=59, b=118 is 6962"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 60)",
+    "input": "a = 60, b = 120",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=60, b=120 is 7200"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 61)",
+    "input": "a = 61, b = 122",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=61, b=122 is 7442"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 62)",
+    "input": "a = 62, b = 124",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=62, b=124 is 7688"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 63)",
+    "input": "a = 63, b = 126",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=63, b=126 is 7938"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 64)",
+    "input": "a = 64, b = 128",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=64, b=128 is 8192"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 65)",
+    "input": "a = 65, b = 130",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=65, b=130 is 8450"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 66)",
+    "input": "a = 66, b = 132",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=66, b=132 is 8712"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 67)",
+    "input": "a = 67, b = 134",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=67, b=134 is 8978"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 68)",
+    "input": "a = 68, b = 136",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=68, b=136 is 9248"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 69)",
+    "input": "a = 69, b = 138",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=69, b=138 is 9522"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 70)",
+    "input": "a = 70, b = 140",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=70, b=140 is 9800"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 71)",
+    "input": "a = 71, b = 142",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=71, b=142 is 10082"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 72)",
+    "input": "a = 72, b = 144",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=72, b=144 is 10368"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 73)",
+    "input": "a = 73, b = 146",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=73, b=146 is 10658"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 74)",
+    "input": "a = 74, b = 148",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=74, b=148 is 10952"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 75)",
+    "input": "a = 75, b = 150",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=75, b=150 is 11250"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 76)",
+    "input": "a = 76, b = 152",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=76, b=152 is 11552"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 77)",
+    "input": "a = 77, b = 154",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=77, b=154 is 11858"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 78)",
+    "input": "a = 78, b = 156",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=78, b=156 is 12168"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 79)",
+    "input": "a = 79, b = 158",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=79, b=158 is 12482"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 80)",
+    "input": "a = 80, b = 160",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=80, b=160 is 12800"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 81)",
+    "input": "a = 81, b = 162",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=81, b=162 is 13122"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 82)",
+    "input": "a = 82, b = 164",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=82, b=164 is 13448"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 83)",
+    "input": "a = 83, b = 166",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=83, b=166 is 13778"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 84)",
+    "input": "a = 84, b = 168",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=84, b=168 is 14112"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 85)",
+    "input": "a = 85, b = 170",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=85, b=170 is 14450"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 86)",
+    "input": "a = 86, b = 172",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=86, b=172 is 14792"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 87)",
+    "input": "a = 87, b = 174",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=87, b=174 is 15138"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 88)",
+    "input": "a = 88, b = 176",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=88, b=176 is 15488"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 89)",
+    "input": "a = 89, b = 178",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=89, b=178 is 15842"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 90)",
+    "input": "a = 90, b = 180",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=90, b=180 is 16200"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 91)",
+    "input": "a = 91, b = 182",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=91, b=182 is 16562"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 92)",
+    "input": "a = 92, b = 184",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=92, b=184 is 16928"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 93)",
+    "input": "a = 93, b = 186",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=93, b=186 is 17298"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 94)",
+    "input": "a = 94, b = 188",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=94, b=188 is 17672"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 95)",
+    "input": "a = 95, b = 190",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=95, b=190 is 18050"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 96)",
+    "input": "a = 96, b = 192",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=96, b=192 is 18432"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 97)",
+    "input": "a = 97, b = 194",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=97, b=194 is 18818"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 98)",
+    "input": "a = 98, b = 196",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=98, b=196 is 19208"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 99)",
+    "input": "a = 99, b = 198",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=99, b=198 is 19602"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 100)",
+    "input": "a = 100, b = 200",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=100, b=200 is 20000"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 101)",
+    "input": "a = 101, b = 202",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=101, b=202 is 20402"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 102)",
+    "input": "a = 102, b = 204",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=102, b=204 is 20808"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 103)",
+    "input": "a = 103, b = 206",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=103, b=206 is 21218"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 104)",
+    "input": "a = 104, b = 208",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=104, b=208 is 21632"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 105)",
+    "input": "a = 105, b = 210",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=105, b=210 is 22050"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 106)",
+    "input": "a = 106, b = 212",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=106, b=212 is 22472"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 107)",
+    "input": "a = 107, b = 214",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=107, b=214 is 22898"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 108)",
+    "input": "a = 108, b = 216",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=108, b=216 is 23328"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 109)",
+    "input": "a = 109, b = 218",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=109, b=218 is 23762"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 110)",
+    "input": "a = 110, b = 220",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=110, b=220 is 24200"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 111)",
+    "input": "a = 111, b = 222",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=111, b=222 is 24642"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 112)",
+    "input": "a = 112, b = 224",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=112, b=224 is 25088"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 113)",
+    "input": "a = 113, b = 226",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=113, b=226 is 25538"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 114)",
+    "input": "a = 114, b = 228",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=114, b=228 is 25992"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 115)",
+    "input": "a = 115, b = 230",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=115, b=230 is 26450"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 116)",
+    "input": "a = 116, b = 232",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=116, b=232 is 26912"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 117)",
+    "input": "a = 117, b = 234",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=117, b=234 is 27378"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 118)",
+    "input": "a = 118, b = 236",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=118, b=236 is 27848"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 119)",
+    "input": "a = 119, b = 238",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=119, b=238 is 28322"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 120)",
+    "input": "a = 120, b = 240",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=120, b=240 is 28800"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 121)",
+    "input": "a = 121, b = 242",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=121, b=242 is 29282"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 122)",
+    "input": "a = 122, b = 244",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=122, b=244 is 29768"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 123)",
+    "input": "a = 123, b = 246",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=123, b=246 is 30258"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 124)",
+    "input": "a = 124, b = 248",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=124, b=248 is 30752"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 125)",
+    "input": "a = 125, b = 250",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=125, b=250 is 31250"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 126)",
+    "input": "a = 126, b = 252",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=126, b=252 is 31752"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 127)",
+    "input": "a = 127, b = 254",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=127, b=254 is 32258"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 128)",
+    "input": "a = 128, b = 256",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=128, b=256 is 32768"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 129)",
+    "input": "a = 129, b = 258",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=129, b=258 is 33282"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 130)",
+    "input": "a = 130, b = 260",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=130, b=260 is 33800"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 131)",
+    "input": "a = 131, b = 262",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=131, b=262 is 34322"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 132)",
+    "input": "a = 132, b = 264",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=132, b=264 is 34848"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 133)",
+    "input": "a = 133, b = 266",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=133, b=266 is 35378"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 134)",
+    "input": "a = 134, b = 268",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=134, b=268 is 35912"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 135)",
+    "input": "a = 135, b = 270",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=135, b=270 is 36450"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 136)",
+    "input": "a = 136, b = 272",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=136, b=272 is 36992"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 137)",
+    "input": "a = 137, b = 274",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=137, b=274 is 37538"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 138)",
+    "input": "a = 138, b = 276",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=138, b=276 is 38088"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 139)",
+    "input": "a = 139, b = 278",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=139, b=278 is 38642"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 140)",
+    "input": "a = 140, b = 280",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=140, b=280 is 39200"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 141)",
+    "input": "a = 141, b = 282",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=141, b=282 is 39762"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 142)",
+    "input": "a = 142, b = 284",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=142, b=284 is 40328"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 143)",
+    "input": "a = 143, b = 286",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=143, b=286 is 40898"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 144)",
+    "input": "a = 144, b = 288",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=144, b=288 is 41472"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 145)",
+    "input": "a = 145, b = 290",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=145, b=290 is 42050"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 146)",
+    "input": "a = 146, b = 292",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=146, b=292 is 42632"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 147)",
+    "input": "a = 147, b = 294",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=147, b=294 is 43218"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 148)",
+    "input": "a = 148, b = 296",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=148, b=296 is 43808"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 149)",
+    "input": "a = 149, b = 298",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=149, b=298 is 44402"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 150)",
+    "input": "a = 150, b = 300",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=150, b=300 is 45000"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 151)",
+    "input": "a = 151, b = 302",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=151, b=302 is 45602"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 152)",
+    "input": "a = 152, b = 304",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=152, b=304 is 46208"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 153)",
+    "input": "a = 153, b = 306",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=153, b=306 is 46818"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 154)",
+    "input": "a = 154, b = 308",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=154, b=308 is 47432"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 155)",
+    "input": "a = 155, b = 310",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=155, b=310 is 48050"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 156)",
+    "input": "a = 156, b = 312",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=156, b=312 is 48672"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 157)",
+    "input": "a = 157, b = 314",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=157, b=314 is 49298"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 158)",
+    "input": "a = 158, b = 316",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=158, b=316 is 49928"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 159)",
+    "input": "a = 159, b = 318",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=159, b=318 is 50562"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 160)",
+    "input": "a = 160, b = 320",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=160, b=320 is 51200"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 161)",
+    "input": "a = 161, b = 322",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=161, b=322 is 51842"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 162)",
+    "input": "a = 162, b = 324",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=162, b=324 is 52488"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 163)",
+    "input": "a = 163, b = 326",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=163, b=326 is 53138"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 164)",
+    "input": "a = 164, b = 328",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=164, b=328 is 53792"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 165)",
+    "input": "a = 165, b = 330",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=165, b=330 is 54450"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 166)",
+    "input": "a = 166, b = 332",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=166, b=332 is 55112"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 167)",
+    "input": "a = 167, b = 334",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=167, b=334 is 55778"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 168)",
+    "input": "a = 168, b = 336",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=168, b=336 is 56448"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 169)",
+    "input": "a = 169, b = 338",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=169, b=338 is 57122"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 170)",
+    "input": "a = 170, b = 340",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=170, b=340 is 57800"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 171)",
+    "input": "a = 171, b = 342",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=171, b=342 is 58482"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 172)",
+    "input": "a = 172, b = 344",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=172, b=344 is 59168"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 173)",
+    "input": "a = 173, b = 346",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=173, b=346 is 59858"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 174)",
+    "input": "a = 174, b = 348",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=174, b=348 is 60552"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 175)",
+    "input": "a = 175, b = 350",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=175, b=350 is 61250"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 176)",
+    "input": "a = 176, b = 352",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=176, b=352 is 61952"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 177)",
+    "input": "a = 177, b = 354",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=177, b=354 is 62658"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 178)",
+    "input": "a = 178, b = 356",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=178, b=356 is 63368"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 179)",
+    "input": "a = 179, b = 358",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=179, b=358 is 64082"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 180)",
+    "input": "a = 180, b = 360",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=180, b=360 is 64800"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 181)",
+    "input": "a = 181, b = 362",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=181, b=362 is 65522"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 182)",
+    "input": "a = 182, b = 364",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=182, b=364 is 66248"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 183)",
+    "input": "a = 183, b = 366",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=183, b=366 is 66978"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 184)",
+    "input": "a = 184, b = 368",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=184, b=368 is 67712"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 185)",
+    "input": "a = 185, b = 370",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=185, b=370 is 68450"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 186)",
+    "input": "a = 186, b = 372",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=186, b=372 is 69192"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 187)",
+    "input": "a = 187, b = 374",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=187, b=374 is 69938"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 188)",
+    "input": "a = 188, b = 376",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=188, b=376 is 70688"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 189)",
+    "input": "a = 189, b = 378",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=189, b=378 is 71442"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 190)",
+    "input": "a = 190, b = 380",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=190, b=380 is 72200"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 191)",
+    "input": "a = 191, b = 382",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=191, b=382 is 72962"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 192)",
+    "input": "a = 192, b = 384",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=192, b=384 is 73728"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 193)",
+    "input": "a = 193, b = 386",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=193, b=386 is 74498"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 194)",
+    "input": "a = 194, b = 388",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=194, b=388 is 75272"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 195)",
+    "input": "a = 195, b = 390",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=195, b=390 is 76050"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 196)",
+    "input": "a = 196, b = 392",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=196, b=392 is 76832"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 197)",
+    "input": "a = 197, b = 394",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=197, b=394 is 77618"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 198)",
+    "input": "a = 198, b = 396",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=198, b=396 is 78408"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 199)",
+    "input": "a = 199, b = 398",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=199, b=398 is 79202"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 200)",
+    "input": "a = 200, b = 400",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=200, b=400 is 80000"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 201)",
+    "input": "a = 201, b = 402",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=201, b=402 is 80802"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 202)",
+    "input": "a = 202, b = 404",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=202, b=404 is 81608"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 203)",
+    "input": "a = 203, b = 406",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=203, b=406 is 82418"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 204)",
+    "input": "a = 204, b = 408",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=204, b=408 is 83232"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 205)",
+    "input": "a = 205, b = 410",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=205, b=410 is 84050"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 206)",
+    "input": "a = 206, b = 412",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=206, b=412 is 84872"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 207)",
+    "input": "a = 207, b = 414",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=207, b=414 is 85698"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 208)",
+    "input": "a = 208, b = 416",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=208, b=416 is 86528"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 209)",
+    "input": "a = 209, b = 418",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=209, b=418 is 87362"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 210)",
+    "input": "a = 210, b = 420",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=210, b=420 is 88200"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 211)",
+    "input": "a = 211, b = 422",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=211, b=422 is 89042"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 212)",
+    "input": "a = 212, b = 424",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=212, b=424 is 89888"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 213)",
+    "input": "a = 213, b = 426",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=213, b=426 is 90738"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 214)",
+    "input": "a = 214, b = 428",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=214, b=428 is 91592"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 215)",
+    "input": "a = 215, b = 430",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=215, b=430 is 92450"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 216)",
+    "input": "a = 216, b = 432",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=216, b=432 is 93312"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 217)",
+    "input": "a = 217, b = 434",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=217, b=434 is 94178"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 218)",
+    "input": "a = 218, b = 436",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=218, b=436 is 95048"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 219)",
+    "input": "a = 219, b = 438",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=219, b=438 is 95922"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 220)",
+    "input": "a = 220, b = 440",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=220, b=440 is 96800"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 221)",
+    "input": "a = 221, b = 442",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=221, b=442 is 97682"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 222)",
+    "input": "a = 222, b = 444",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=222, b=444 is 98568"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 223)",
+    "input": "a = 223, b = 446",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=223, b=446 is 99458"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 224)",
+    "input": "a = 224, b = 448",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=224, b=448 is 100352"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 225)",
+    "input": "a = 225, b = 450",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=225, b=450 is 101250"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 226)",
+    "input": "a = 226, b = 452",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=226, b=452 is 102152"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 227)",
+    "input": "a = 227, b = 454",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=227, b=454 is 103058"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 228)",
+    "input": "a = 228, b = 456",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=228, b=456 is 103968"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 229)",
+    "input": "a = 229, b = 458",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=229, b=458 is 104882"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 230)",
+    "input": "a = 230, b = 460",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=230, b=460 is 105800"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 231)",
+    "input": "a = 231, b = 462",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=231, b=462 is 106722"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 232)",
+    "input": "a = 232, b = 464",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=232, b=464 is 107648"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 233)",
+    "input": "a = 233, b = 466",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=233, b=466 is 108578"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 234)",
+    "input": "a = 234, b = 468",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=234, b=468 is 109512"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 235)",
+    "input": "a = 235, b = 470",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=235, b=470 is 110450"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 236)",
+    "input": "a = 236, b = 472",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=236, b=472 is 111392"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 237)",
+    "input": "a = 237, b = 474",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=237, b=474 is 112338"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 238)",
+    "input": "a = 238, b = 476",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=238, b=476 is 113288"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 239)",
+    "input": "a = 239, b = 478",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=239, b=478 is 114242"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 240)",
+    "input": "a = 240, b = 480",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=240, b=480 is 115200"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 241)",
+    "input": "a = 241, b = 482",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=241, b=482 is 116162"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 242)",
+    "input": "a = 242, b = 484",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=242, b=484 is 117128"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 243)",
+    "input": "a = 243, b = 486",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=243, b=486 is 118098"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 244)",
+    "input": "a = 244, b = 488",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=244, b=488 is 119072"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 245)",
+    "input": "a = 245, b = 490",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=245, b=490 is 120050"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 246)",
+    "input": "a = 246, b = 492",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=246, b=492 is 121032"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 247)",
+    "input": "a = 247, b = 494",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=247, b=494 is 122018"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 248)",
+    "input": "a = 248, b = 496",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=248, b=496 is 123008"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 249)",
+    "input": "a = 249, b = 498",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=249, b=498 is 124002"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 250)",
+    "input": "a = 250, b = 500",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=250, b=500 is 125000"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 251)",
+    "input": "a = 251, b = 502",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=251, b=502 is 126002"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 252)",
+    "input": "a = 252, b = 504",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=252, b=504 is 127008"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 253)",
+    "input": "a = 253, b = 506",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=253, b=506 is 128018"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 254)",
+    "input": "a = 254, b = 508",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=254, b=508 is 129032"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 255)",
+    "input": "a = 255, b = 510",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=255, b=510 is 130050"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 256)",
+    "input": "a = 256, b = 512",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=256, b=512 is 131072"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 257)",
+    "input": "a = 257, b = 514",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=257, b=514 is 132098"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 258)",
+    "input": "a = 258, b = 516",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=258, b=516 is 133128"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 259)",
+    "input": "a = 259, b = 518",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=259, b=518 is 134162"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 260)",
+    "input": "a = 260, b = 520",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=260, b=520 is 135200"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 261)",
+    "input": "a = 261, b = 522",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=261, b=522 is 136242"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 262)",
+    "input": "a = 262, b = 524",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=262, b=524 is 137288"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 263)",
+    "input": "a = 263, b = 526",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=263, b=526 is 138338"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 264)",
+    "input": "a = 264, b = 528",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=264, b=528 is 139392"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 265)",
+    "input": "a = 265, b = 530",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=265, b=530 is 140450"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 266)",
+    "input": "a = 266, b = 532",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=266, b=532 is 141512"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 267)",
+    "input": "a = 267, b = 534",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=267, b=534 is 142578"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 268)",
+    "input": "a = 268, b = 536",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=268, b=536 is 143648"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 269)",
+    "input": "a = 269, b = 538",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=269, b=538 is 144722"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 270)",
+    "input": "a = 270, b = 540",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=270, b=540 is 145800"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 271)",
+    "input": "a = 271, b = 542",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=271, b=542 is 146882"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 272)",
+    "input": "a = 272, b = 544",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=272, b=544 is 147968"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 273)",
+    "input": "a = 273, b = 546",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=273, b=546 is 149058"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 274)",
+    "input": "a = 274, b = 548",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=274, b=548 is 150152"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 275)",
+    "input": "a = 275, b = 550",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=275, b=550 is 151250"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 276)",
+    "input": "a = 276, b = 552",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=276, b=552 is 152352"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 277)",
+    "input": "a = 277, b = 554",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=277, b=554 is 153458"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 278)",
+    "input": "a = 278, b = 556",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=278, b=556 is 154568"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 279)",
+    "input": "a = 279, b = 558",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=279, b=558 is 155682"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 280)",
+    "input": "a = 280, b = 560",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=280, b=560 is 156800"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 281)",
+    "input": "a = 281, b = 562",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=281, b=562 is 157922"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 282)",
+    "input": "a = 282, b = 564",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=282, b=564 is 159048"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 283)",
+    "input": "a = 283, b = 566",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=283, b=566 is 160178"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 284)",
+    "input": "a = 284, b = 568",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=284, b=568 is 161312"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 285)",
+    "input": "a = 285, b = 570",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=285, b=570 is 162450"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 286)",
+    "input": "a = 286, b = 572",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=286, b=572 is 163592"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 287)",
+    "input": "a = 287, b = 574",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=287, b=574 is 164738"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 288)",
+    "input": "a = 288, b = 576",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=288, b=576 is 165888"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 289)",
+    "input": "a = 289, b = 578",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=289, b=578 is 167042"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 290)",
+    "input": "a = 290, b = 580",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=290, b=580 is 168200"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 291)",
+    "input": "a = 291, b = 582",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=291, b=582 is 169362"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 292)",
+    "input": "a = 292, b = 584",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=292, b=584 is 170528"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 293)",
+    "input": "a = 293, b = 586",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=293, b=586 is 171698"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 294)",
+    "input": "a = 294, b = 588",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=294, b=588 is 172872"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 295)",
+    "input": "a = 295, b = 590",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=295, b=590 is 174050"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 296)",
+    "input": "a = 296, b = 592",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=296, b=592 is 175232"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 297)",
+    "input": "a = 297, b = 594",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=297, b=594 is 176418"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 298)",
+    "input": "a = 298, b = 596",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=298, b=596 is 177608"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 299)",
+    "input": "a = 299, b = 598",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=299, b=598 is 178802"
+  },
+  {
+    "instruction": "Create a function to multiply two numbers. (Example 300)",
+    "input": "a = 300, b = 600",
+    "output": "def multiply(a, b):\n  return a * b  # Result for a=300, b=600 is 180000"
+  },
+  {
+    "instruction": "Add 1 and 2 together.",
+    "input": "1, 2",
+    "output": "3"
+  },
+  {
+    "instruction": "Subtract 2 from 3.",
+    "input": "3, 2",
+    "output": "1"
+  },
+  {
+    "instruction": "Multiply 1 by 2.",
+    "input": "1, 2",
+    "output": "2"
+  },
+  {
+    "instruction": "Add 2 and 4 together.",
+    "input": "2, 4",
+    "output": "6"
+  },
+  {
+    "instruction": "Subtract 4 from 6.",
+    "input": "6, 4",
+    "output": "2"
+  },
+  {
+    "instruction": "Multiply 2 by 4.",
+    "input": "2, 4",
+    "output": "8"
+  },
+  {
+    "instruction": "Add 3 and 6 together.",
+    "input": "3, 6",
+    "output": "9"
+  },
+  {
+    "instruction": "Subtract 6 from 9.",
+    "input": "9, 6",
+    "output": "3"
+  },
+  {
+    "instruction": "Multiply 3 by 6.",
+    "input": "3, 6",
+    "output": "18"
+  },
+  {
+    "instruction": "Add 4 and 8 together.",
+    "input": "4, 8",
+    "output": "12"
+  },
+  {
+    "instruction": "Subtract 8 from 12.",
+    "input": "12, 8",
+    "output": "4"
+  },
+  {
+    "instruction": "Multiply 4 by 8.",
+    "input": "4, 8",
+    "output": "32"
+  },
+  {
+    "instruction": "Add 5 and 10 together.",
+    "input": "5, 10",
+    "output": "15"
+  },
+  {
+    "instruction": "Subtract 10 from 15.",
+    "input": "15, 10",
+    "output": "5"
+  },
+  {
+    "instruction": "Multiply 5 by 10.",
+    "input": "5, 10",
+    "output": "50"
+  },
+  {
+    "instruction": "Add 6 and 12 together.",
+    "input": "6, 12",
+    "output": "18"
+  },
+  {
+    "instruction": "Subtract 12 from 18.",
+    "input": "18, 12",
+    "output": "6"
+  },
+  {
+    "instruction": "Multiply 6 by 12.",
+    "input": "6, 12",
+    "output": "72"
+  },
+  {
+    "instruction": "Add 7 and 14 together.",
+    "input": "7, 14",
+    "output": "21"
+  },
+  {
+    "instruction": "Subtract 14 from 21.",
+    "input": "21, 14",
+    "output": "7"
+  },
+  {
+    "instruction": "Multiply 7 by 14.",
+    "input": "7, 14",
+    "output": "98"
+  },
+  {
+    "instruction": "Add 8 and 16 together.",
+    "input": "8, 16",
+    "output": "24"
+  },
+  {
+    "instruction": "Subtract 16 from 24.",
+    "input": "24, 16",
+    "output": "8"
+  },
+  {
+    "instruction": "Multiply 8 by 16.",
+    "input": "8, 16",
+    "output": "128"
+  },
+  {
+    "instruction": "Add 9 and 18 together.",
+    "input": "9, 18",
+    "output": "27"
+  },
+  {
+    "instruction": "Subtract 18 from 27.",
+    "input": "27, 18",
+    "output": "9"
+  },
+  {
+    "instruction": "Multiply 9 by 18.",
+    "input": "9, 18",
+    "output": "162"
+  },
+  {
+    "instruction": "Add 10 and 20 together.",
+    "input": "10, 20",
+    "output": "30"
+  },
+  {
+    "instruction": "Subtract 20 from 30.",
+    "input": "30, 20",
+    "output": "10"
+  },
+  {
+    "instruction": "Multiply 10 by 20.",
+    "input": "10, 20",
+    "output": "200"
+  },
+  {
+    "instruction": "Add 11 and 22 together.",
+    "input": "11, 22",
+    "output": "33"
+  },
+  {
+    "instruction": "Subtract 22 from 33.",
+    "input": "33, 22",
+    "output": "11"
+  },
+  {
+    "instruction": "Multiply 11 by 22.",
+    "input": "11, 22",
+    "output": "242"
+  },
+  {
+    "instruction": "Add 12 and 24 together.",
+    "input": "12, 24",
+    "output": "36"
+  },
+  {
+    "instruction": "Subtract 24 from 36.",
+    "input": "36, 24",
+    "output": "12"
+  },
+  {
+    "instruction": "Multiply 12 by 24.",
+    "input": "12, 24",
+    "output": "288"
+  },
+  {
+    "instruction": "Add 13 and 26 together.",
+    "input": "13, 26",
+    "output": "39"
+  },
+  {
+    "instruction": "Subtract 26 from 39.",
+    "input": "39, 26",
+    "output": "13"
+  },
+  {
+    "instruction": "Multiply 13 by 26.",
+    "input": "13, 26",
+    "output": "338"
+  },
+  {
+    "instruction": "Add 14 and 28 together.",
+    "input": "14, 28",
+    "output": "42"
+  },
+  {
+    "instruction": "Subtract 28 from 42.",
+    "input": "42, 28",
+    "output": "14"
+  },
+  {
+    "instruction": "Multiply 14 by 28.",
+    "input": "14, 28",
+    "output": "392"
+  },
+  {
+    "instruction": "Add 15 and 30 together.",
+    "input": "15, 30",
+    "output": "45"
+  },
+  {
+    "instruction": "Subtract 30 from 45.",
+    "input": "45, 30",
+    "output": "15"
+  },
+  {
+    "instruction": "Multiply 15 by 30.",
+    "input": "15, 30",
+    "output": "450"
+  },
+  {
+    "instruction": "Add 16 and 32 together.",
+    "input": "16, 32",
+    "output": "48"
+  },
+  {
+    "instruction": "Subtract 32 from 48.",
+    "input": "48, 32",
+    "output": "16"
+  },
+  {
+    "instruction": "Multiply 16 by 32.",
+    "input": "16, 32",
+    "output": "512"
+  },
+  {
+    "instruction": "Add 17 and 34 together.",
+    "input": "17, 34",
+    "output": "51"
+  },
+  {
+    "instruction": "Subtract 34 from 51.",
+    "input": "51, 34",
+    "output": "17"
+  },
+  {
+    "instruction": "Multiply 17 by 34.",
+    "input": "17, 34",
+    "output": "578"
+  },
+  {
+    "instruction": "Add 18 and 36 together.",
+    "input": "18, 36",
+    "output": "54"
+  },
+  {
+    "instruction": "Subtract 36 from 54.",
+    "input": "54, 36",
+    "output": "18"
+  },
+  {
+    "instruction": "Multiply 18 by 36.",
+    "input": "18, 36",
+    "output": "648"
+  },
+  {
+    "instruction": "Add 19 and 38 together.",
+    "input": "19, 38",
+    "output": "57"
+  },
+  {
+    "instruction": "Subtract 38 from 57.",
+    "input": "57, 38",
+    "output": "19"
+  },
+  {
+    "instruction": "Multiply 19 by 38.",
+    "input": "19, 38",
+    "output": "722"
+  },
+  {
+    "instruction": "Add 20 and 40 together.",
+    "input": "20, 40",
+    "output": "60"
+  },
+  {
+    "instruction": "Subtract 40 from 60.",
+    "input": "60, 40",
+    "output": "20"
+  },
+  {
+    "instruction": "Multiply 20 by 40.",
+    "input": "20, 40",
+    "output": "800"
+  },
+  {
+    "instruction": "Add 21 and 42 together.",
+    "input": "21, 42",
+    "output": "63"
+  },
+  {
+    "instruction": "Subtract 42 from 63.",
+    "input": "63, 42",
+    "output": "21"
+  },
+  {
+    "instruction": "Multiply 21 by 42.",
+    "input": "21, 42",
+    "output": "882"
+  },
+  {
+    "instruction": "Add 22 and 44 together.",
+    "input": "22, 44",
+    "output": "66"
+  },
+  {
+    "instruction": "Subtract 44 from 66.",
+    "input": "66, 44",
+    "output": "22"
+  },
+  {
+    "instruction": "Multiply 22 by 44.",
+    "input": "22, 44",
+    "output": "968"
+  },
+  {
+    "instruction": "Add 23 and 46 together.",
+    "input": "23, 46",
+    "output": "69"
+  },
+  {
+    "instruction": "Subtract 46 from 69.",
+    "input": "69, 46",
+    "output": "23"
+  },
+  {
+    "instruction": "Multiply 23 by 46.",
+    "input": "23, 46",
+    "output": "1058"
+  },
+  {
+    "instruction": "Add 24 and 48 together.",
+    "input": "24, 48",
+    "output": "72"
+  },
+  {
+    "instruction": "Subtract 48 from 72.",
+    "input": "72, 48",
+    "output": "24"
+  },
+  {
+    "instruction": "Multiply 24 by 48.",
+    "input": "24, 48",
+    "output": "1152"
+  },
+  {
+    "instruction": "Add 25 and 50 together.",
+    "input": "25, 50",
+    "output": "75"
+  },
+  {
+    "instruction": "Subtract 50 from 75.",
+    "input": "75, 50",
+    "output": "25"
+  },
+  {
+    "instruction": "Multiply 25 by 50.",
+    "input": "25, 50",
+    "output": "1250"
+  },
+  {
+    "instruction": "Add 26 and 52 together.",
+    "input": "26, 52",
+    "output": "78"
+  },
+  {
+    "instruction": "Subtract 52 from 78.",
+    "input": "78, 52",
+    "output": "26"
+  },
+  {
+    "instruction": "Multiply 26 by 52.",
+    "input": "26, 52",
+    "output": "1352"
+  },
+  {
+    "instruction": "Add 27 and 54 together.",
+    "input": "27, 54",
+    "output": "81"
+  },
+  {
+    "instruction": "Subtract 54 from 81.",
+    "input": "81, 54",
+    "output": "27"
+  },
+  {
+    "instruction": "Multiply 27 by 54.",
+    "input": "27, 54",
+    "output": "1458"
+  },
+  {
+    "instruction": "Add 28 and 56 together.",
+    "input": "28, 56",
+    "output": "84"
+  },
+  {
+    "instruction": "Subtract 56 from 84.",
+    "input": "84, 56",
+    "output": "28"
+  },
+  {
+    "instruction": "Multiply 28 by 56.",
+    "input": "28, 56",
+    "output": "1568"
+  },
+  {
+    "instruction": "Add 29 and 58 together.",
+    "input": "29, 58",
+    "output": "87"
+  },
+  {
+    "instruction": "Subtract 58 from 87.",
+    "input": "87, 58",
+    "output": "29"
+  },
+  {
+    "instruction": "Multiply 29 by 58.",
+    "input": "29, 58",
+    "output": "1682"
+  },
+  {
+    "instruction": "Add 30 and 60 together.",
+    "input": "30, 60",
+    "output": "90"
+  },
+  {
+    "instruction": "Subtract 60 from 90.",
+    "input": "90, 60",
+    "output": "30"
+  },
+  {
+    "instruction": "Multiply 30 by 60.",
+    "input": "30, 60",
+    "output": "1800"
+  },
+  {
+    "instruction": "Add 31 and 62 together.",
+    "input": "31, 62",
+    "output": "93"
+  },
+  {
+    "instruction": "Subtract 62 from 93.",
+    "input": "93, 62",
+    "output": "31"
+  },
+  {
+    "instruction": "Multiply 31 by 62.",
+    "input": "31, 62",
+    "output": "1922"
+  },
+  {
+    "instruction": "Add 32 and 64 together.",
+    "input": "32, 64",
+    "output": "96"
+  },
+  {
+    "instruction": "Subtract 64 from 96.",
+    "input": "96, 64",
+    "output": "32"
+  },
+  {
+    "instruction": "Multiply 32 by 64.",
+    "input": "32, 64",
+    "output": "2048"
+  },
+  {
+    "instruction": "Add 33 and 66 together.",
+    "input": "33, 66",
+    "output": "99"
+  },
+  {
+    "instruction": "Subtract 66 from 99.",
+    "input": "99, 66",
+    "output": "33"
+  },
+  {
+    "instruction": "Multiply 33 by 66.",
+    "input": "33, 66",
+    "output": "2178"
+  },
+  {
+    "instruction": "Add 34 and 68 together.",
+    "input": "34, 68",
+    "output": "102"
+  },
+  {
+    "instruction": "Subtract 68 from 102.",
+    "input": "102, 68",
+    "output": "34"
+  },
+  {
+    "instruction": "Multiply 34 by 68.",
+    "input": "34, 68",
+    "output": "2312"
+  },
+  {
+    "instruction": "Add 35 and 70 together.",
+    "input": "35, 70",
+    "output": "105"
+  },
+  {
+    "instruction": "Subtract 70 from 105.",
+    "input": "105, 70",
+    "output": "35"
+  },
+  {
+    "instruction": "Multiply 35 by 70.",
+    "input": "35, 70",
+    "output": "2450"
+  },
+  {
+    "instruction": "Add 36 and 72 together.",
+    "input": "36, 72",
+    "output": "108"
+  },
+  {
+    "instruction": "Subtract 72 from 108.",
+    "input": "108, 72",
+    "output": "36"
+  },
+  {
+    "instruction": "Multiply 36 by 72.",
+    "input": "36, 72",
+    "output": "2592"
+  },
+  {
+    "instruction": "Add 37 and 74 together.",
+    "input": "37, 74",
+    "output": "111"
+  },
+  {
+    "instruction": "Subtract 74 from 111.",
+    "input": "111, 74",
+    "output": "37"
+  },
+  {
+    "instruction": "Multiply 37 by 74.",
+    "input": "37, 74",
+    "output": "2738"
+  },
+  {
+    "instruction": "Add 38 and 76 together.",
+    "input": "38, 76",
+    "output": "114"
+  },
+  {
+    "instruction": "Subtract 76 from 114.",
+    "input": "114, 76",
+    "output": "38"
+  },
+  {
+    "instruction": "Multiply 38 by 76.",
+    "input": "38, 76",
+    "output": "2888"
+  },
+  {
+    "instruction": "Add 39 and 78 together.",
+    "input": "39, 78",
+    "output": "117"
+  },
+  {
+    "instruction": "Subtract 78 from 117.",
+    "input": "117, 78",
+    "output": "39"
+  },
+  {
+    "instruction": "Multiply 39 by 78.",
+    "input": "39, 78",
+    "output": "3042"
+  },
+  {
+    "instruction": "Add 40 and 80 together.",
+    "input": "40, 80",
+    "output": "120"
+  },
+  {
+    "instruction": "Subtract 80 from 120.",
+    "input": "120, 80",
+    "output": "40"
+  },
+  {
+    "instruction": "Multiply 40 by 80.",
+    "input": "40, 80",
+    "output": "3200"
+  },
+  {
+    "instruction": "Add 41 and 82 together.",
+    "input": "41, 82",
+    "output": "123"
+  },
+  {
+    "instruction": "Subtract 82 from 123.",
+    "input": "123, 82",
+    "output": "41"
+  },
+  {
+    "instruction": "Multiply 41 by 82.",
+    "input": "41, 82",
+    "output": "3362"
+  },
+  {
+    "instruction": "Add 42 and 84 together.",
+    "input": "42, 84",
+    "output": "126"
+  },
+  {
+    "instruction": "Subtract 84 from 126.",
+    "input": "126, 84",
+    "output": "42"
+  },
+  {
+    "instruction": "Multiply 42 by 84.",
+    "input": "42, 84",
+    "output": "3528"
+  },
+  {
+    "instruction": "Add 43 and 86 together.",
+    "input": "43, 86",
+    "output": "129"
+  },
+  {
+    "instruction": "Subtract 86 from 129.",
+    "input": "129, 86",
+    "output": "43"
+  },
+  {
+    "instruction": "Multiply 43 by 86.",
+    "input": "43, 86",
+    "output": "3698"
+  },
+  {
+    "instruction": "Add 44 and 88 together.",
+    "input": "44, 88",
+    "output": "132"
+  },
+  {
+    "instruction": "Subtract 88 from 132.",
+    "input": "132, 88",
+    "output": "44"
+  },
+  {
+    "instruction": "Multiply 44 by 88.",
+    "input": "44, 88",
+    "output": "3872"
+  },
+  {
+    "instruction": "Add 45 and 90 together.",
+    "input": "45, 90",
+    "output": "135"
+  },
+  {
+    "instruction": "Subtract 90 from 135.",
+    "input": "135, 90",
+    "output": "45"
+  },
+  {
+    "instruction": "Multiply 45 by 90.",
+    "input": "45, 90",
+    "output": "4050"
+  },
+  {
+    "instruction": "Add 46 and 92 together.",
+    "input": "46, 92",
+    "output": "138"
+  },
+  {
+    "instruction": "Subtract 92 from 138.",
+    "input": "138, 92",
+    "output": "46"
+  },
+  {
+    "instruction": "Multiply 46 by 92.",
+    "input": "46, 92",
+    "output": "4232"
+  },
+  {
+    "instruction": "Add 47 and 94 together.",
+    "input": "47, 94",
+    "output": "141"
+  },
+  {
+    "instruction": "Subtract 94 from 141.",
+    "input": "141, 94",
+    "output": "47"
+  },
+  {
+    "instruction": "Multiply 47 by 94.",
+    "input": "47, 94",
+    "output": "4418"
+  },
+  {
+    "instruction": "Add 48 and 96 together.",
+    "input": "48, 96",
+    "output": "144"
+  },
+  {
+    "instruction": "Subtract 96 from 144.",
+    "input": "144, 96",
+    "output": "48"
+  },
+  {
+    "instruction": "Multiply 48 by 96.",
+    "input": "48, 96",
+    "output": "4608"
+  },
+  {
+    "instruction": "Add 49 and 98 together.",
+    "input": "49, 98",
+    "output": "147"
+  },
+  {
+    "instruction": "Subtract 98 from 147.",
+    "input": "147, 98",
+    "output": "49"
+  },
+  {
+    "instruction": "Multiply 49 by 98.",
+    "input": "49, 98",
+    "output": "4802"
+  },
+  {
+    "instruction": "Add 50 and 100 together.",
+    "input": "50, 100",
+    "output": "150"
+  },
+  {
+    "instruction": "Subtract 100 from 150.",
+    "input": "150, 100",
+    "output": "50"
+  },
+  {
+    "instruction": "Multiply 50 by 100.",
+    "input": "50, 100",
+    "output": "5000"
+  },
+  {
+    "instruction": "Add 51 and 102 together.",
+    "input": "51, 102",
+    "output": "153"
+  },
+  {
+    "instruction": "Subtract 102 from 153.",
+    "input": "153, 102",
+    "output": "51"
+  },
+  {
+    "instruction": "Multiply 51 by 102.",
+    "input": "51, 102",
+    "output": "5202"
+  },
+  {
+    "instruction": "Add 52 and 104 together.",
+    "input": "52, 104",
+    "output": "156"
+  },
+  {
+    "instruction": "Subtract 104 from 156.",
+    "input": "156, 104",
+    "output": "52"
+  },
+  {
+    "instruction": "Multiply 52 by 104.",
+    "input": "52, 104",
+    "output": "5408"
+  },
+  {
+    "instruction": "Add 53 and 106 together.",
+    "input": "53, 106",
+    "output": "159"
+  },
+  {
+    "instruction": "Subtract 106 from 159.",
+    "input": "159, 106",
+    "output": "53"
+  },
+  {
+    "instruction": "Multiply 53 by 106.",
+    "input": "53, 106",
+    "output": "5618"
+  },
+  {
+    "instruction": "Add 54 and 108 together.",
+    "input": "54, 108",
+    "output": "162"
+  },
+  {
+    "instruction": "Subtract 108 from 162.",
+    "input": "162, 108",
+    "output": "54"
+  },
+  {
+    "instruction": "Multiply 54 by 108.",
+    "input": "54, 108",
+    "output": "5832"
+  },
+  {
+    "instruction": "Add 55 and 110 together.",
+    "input": "55, 110",
+    "output": "165"
+  },
+  {
+    "instruction": "Subtract 110 from 165.",
+    "input": "165, 110",
+    "output": "55"
+  },
+  {
+    "instruction": "Multiply 55 by 110.",
+    "input": "55, 110",
+    "output": "6050"
+  },
+  {
+    "instruction": "Add 56 and 112 together.",
+    "input": "56, 112",
+    "output": "168"
+  },
+  {
+    "instruction": "Subtract 112 from 168.",
+    "input": "168, 112",
+    "output": "56"
+  },
+  {
+    "instruction": "Multiply 56 by 112.",
+    "input": "56, 112",
+    "output": "6272"
+  },
+  {
+    "instruction": "Add 57 and 114 together.",
+    "input": "57, 114",
+    "output": "171"
+  },
+  {
+    "instruction": "Subtract 114 from 171.",
+    "input": "171, 114",
+    "output": "57"
+  },
+  {
+    "instruction": "Multiply 57 by 114.",
+    "input": "57, 114",
+    "output": "6498"
+  },
+  {
+    "instruction": "Add 58 and 116 together.",
+    "input": "58, 116",
+    "output": "174"
+  },
+  {
+    "instruction": "Subtract 116 from 174.",
+    "input": "174, 116",
+    "output": "58"
+  },
+  {
+    "instruction": "Multiply 58 by 116.",
+    "input": "58, 116",
+    "output": "6728"
+  },
+  {
+    "instruction": "Add 59 and 118 together.",
+    "input": "59, 118",
+    "output": "177"
+  },
+  {
+    "instruction": "Subtract 118 from 177.",
+    "input": "177, 118",
+    "output": "59"
+  },
+  {
+    "instruction": "Multiply 59 by 118.",
+    "input": "59, 118",
+    "output": "6962"
+  },
+  {
+    "instruction": "Add 60 and 120 together.",
+    "input": "60, 120",
+    "output": "180"
+  },
+  {
+    "instruction": "Subtract 120 from 180.",
+    "input": "180, 120",
+    "output": "60"
+  },
+  {
+    "instruction": "Multiply 60 by 120.",
+    "input": "60, 120",
+    "output": "7200"
+  },
+  {
+    "instruction": "Add 61 and 122 together.",
+    "input": "61, 122",
+    "output": "183"
+  },
+  {
+    "instruction": "Subtract 122 from 183.",
+    "input": "183, 122",
+    "output": "61"
+  },
+  {
+    "instruction": "Multiply 61 by 122.",
+    "input": "61, 122",
+    "output": "7442"
+  },
+  {
+    "instruction": "Add 62 and 124 together.",
+    "input": "62, 124",
+    "output": "186"
+  },
+  {
+    "instruction": "Subtract 124 from 186.",
+    "input": "186, 124",
+    "output": "62"
+  },
+  {
+    "instruction": "Multiply 62 by 124.",
+    "input": "62, 124",
+    "output": "7688"
+  },
+  {
+    "instruction": "Add 63 and 126 together.",
+    "input": "63, 126",
+    "output": "189"
+  },
+  {
+    "instruction": "Subtract 126 from 189.",
+    "input": "189, 126",
+    "output": "63"
+  },
+  {
+    "instruction": "Multiply 63 by 126.",
+    "input": "63, 126",
+    "output": "7938"
+  },
+  {
+    "instruction": "Add 64 and 128 together.",
+    "input": "64, 128",
+    "output": "192"
+  },
+  {
+    "instruction": "Subtract 128 from 192.",
+    "input": "192, 128",
+    "output": "64"
+  },
+  {
+    "instruction": "Multiply 64 by 128.",
+    "input": "64, 128",
+    "output": "8192"
+  },
+  {
+    "instruction": "Add 65 and 130 together.",
+    "input": "65, 130",
+    "output": "195"
+  },
+  {
+    "instruction": "Subtract 130 from 195.",
+    "input": "195, 130",
+    "output": "65"
+  },
+  {
+    "instruction": "Multiply 65 by 130.",
+    "input": "65, 130",
+    "output": "8450"
+  },
+  {
+    "instruction": "Add 66 and 132 together.",
+    "input": "66, 132",
+    "output": "198"
+  },
+  {
+    "instruction": "Subtract 132 from 198.",
+    "input": "198, 132",
+    "output": "66"
+  },
+  {
+    "instruction": "Multiply 66 by 132.",
+    "input": "66, 132",
+    "output": "8712"
+  },
+  {
+    "instruction": "Add 67 and 134 together.",
+    "input": "67, 134",
+    "output": "201"
+  },
+  {
+    "instruction": "Subtract 134 from 201.",
+    "input": "201, 134",
+    "output": "67"
+  },
+  {
+    "instruction": "Multiply 67 by 134.",
+    "input": "67, 134",
+    "output": "8978"
+  },
+  {
+    "instruction": "Add 68 and 136 together.",
+    "input": "68, 136",
+    "output": "204"
+  },
+  {
+    "instruction": "Subtract 136 from 204.",
+    "input": "204, 136",
+    "output": "68"
+  },
+  {
+    "instruction": "Multiply 68 by 136.",
+    "input": "68, 136",
+    "output": "9248"
+  },
+  {
+    "instruction": "Add 69 and 138 together.",
+    "input": "69, 138",
+    "output": "207"
+  },
+  {
+    "instruction": "Subtract 138 from 207.",
+    "input": "207, 138",
+    "output": "69"
+  },
+  {
+    "instruction": "Multiply 69 by 138.",
+    "input": "69, 138",
+    "output": "9522"
+  },
+  {
+    "instruction": "Add 70 and 140 together.",
+    "input": "70, 140",
+    "output": "210"
+  },
+  {
+    "instruction": "Subtract 140 from 210.",
+    "input": "210, 140",
+    "output": "70"
+  },
+  {
+    "instruction": "Multiply 70 by 140.",
+    "input": "70, 140",
+    "output": "9800"
+  },
+  {
+    "instruction": "Add 71 and 142 together.",
+    "input": "71, 142",
+    "output": "213"
+  },
+  {
+    "instruction": "Subtract 142 from 213.",
+    "input": "213, 142",
+    "output": "71"
+  },
+  {
+    "instruction": "Multiply 71 by 142.",
+    "input": "71, 142",
+    "output": "10082"
+  },
+  {
+    "instruction": "Add 72 and 144 together.",
+    "input": "72, 144",
+    "output": "216"
+  },
+  {
+    "instruction": "Subtract 144 from 216.",
+    "input": "216, 144",
+    "output": "72"
+  },
+  {
+    "instruction": "Multiply 72 by 144.",
+    "input": "72, 144",
+    "output": "10368"
+  },
+  {
+    "instruction": "Add 73 and 146 together.",
+    "input": "73, 146",
+    "output": "219"
+  },
+  {
+    "instruction": "Subtract 146 from 219.",
+    "input": "219, 146",
+    "output": "73"
+  },
+  {
+    "instruction": "Multiply 73 by 146.",
+    "input": "73, 146",
+    "output": "10658"
+  },
+  {
+    "instruction": "Add 74 and 148 together.",
+    "input": "74, 148",
+    "output": "222"
+  },
+  {
+    "instruction": "Subtract 148 from 222.",
+    "input": "222, 148",
+    "output": "74"
+  },
+  {
+    "instruction": "Multiply 74 by 148.",
+    "input": "74, 148",
+    "output": "10952"
+  },
+  {
+    "instruction": "Add 75 and 150 together.",
+    "input": "75, 150",
+    "output": "225"
+  },
+  {
+    "instruction": "Subtract 150 from 225.",
+    "input": "225, 150",
+    "output": "75"
+  },
+  {
+    "instruction": "Multiply 75 by 150.",
+    "input": "75, 150",
+    "output": "11250"
+  },
+  {
+    "instruction": "Add 76 and 152 together.",
+    "input": "76, 152",
+    "output": "228"
+  },
+  {
+    "instruction": "Subtract 152 from 228.",
+    "input": "228, 152",
+    "output": "76"
+  },
+  {
+    "instruction": "Multiply 76 by 152.",
+    "input": "76, 152",
+    "output": "11552"
+  },
+  {
+    "instruction": "Add 77 and 154 together.",
+    "input": "77, 154",
+    "output": "231"
+  },
+  {
+    "instruction": "Subtract 154 from 231.",
+    "input": "231, 154",
+    "output": "77"
+  },
+  {
+    "instruction": "Multiply 77 by 154.",
+    "input": "77, 154",
+    "output": "11858"
+  },
+  {
+    "instruction": "Add 78 and 156 together.",
+    "input": "78, 156",
+    "output": "234"
+  },
+  {
+    "instruction": "Subtract 156 from 234.",
+    "input": "234, 156",
+    "output": "78"
+  },
+  {
+    "instruction": "Multiply 78 by 156.",
+    "input": "78, 156",
+    "output": "12168"
+  },
+  {
+    "instruction": "Add 79 and 158 together.",
+    "input": "79, 158",
+    "output": "237"
+  },
+  {
+    "instruction": "Subtract 158 from 237.",
+    "input": "237, 158",
+    "output": "79"
+  },
+  {
+    "instruction": "Multiply 79 by 158.",
+    "input": "79, 158",
+    "output": "12482"
+  },
+  {
+    "instruction": "Add 80 and 160 together.",
+    "input": "80, 160",
+    "output": "240"
+  },
+  {
+    "instruction": "Subtract 160 from 240.",
+    "input": "240, 160",
+    "output": "80"
+  },
+  {
+    "instruction": "Multiply 80 by 160.",
+    "input": "80, 160",
+    "output": "12800"
+  },
+  {
+    "instruction": "Add 81 and 162 together.",
+    "input": "81, 162",
+    "output": "243"
+  },
+  {
+    "instruction": "Subtract 162 from 243.",
+    "input": "243, 162",
+    "output": "81"
+  },
+  {
+    "instruction": "Multiply 81 by 162.",
+    "input": "81, 162",
+    "output": "13122"
+  },
+  {
+    "instruction": "Add 82 and 164 together.",
+    "input": "82, 164",
+    "output": "246"
+  },
+  {
+    "instruction": "Subtract 164 from 246.",
+    "input": "246, 164",
+    "output": "82"
+  },
+  {
+    "instruction": "Multiply 82 by 164.",
+    "input": "82, 164",
+    "output": "13448"
+  },
+  {
+    "instruction": "Add 83 and 166 together.",
+    "input": "83, 166",
+    "output": "249"
+  },
+  {
+    "instruction": "Subtract 166 from 249.",
+    "input": "249, 166",
+    "output": "83"
+  },
+  {
+    "instruction": "Multiply 83 by 166.",
+    "input": "83, 166",
+    "output": "13778"
+  },
+  {
+    "instruction": "Add 84 and 168 together.",
+    "input": "84, 168",
+    "output": "252"
+  },
+  {
+    "instruction": "Subtract 168 from 252.",
+    "input": "252, 168",
+    "output": "84"
+  },
+  {
+    "instruction": "Multiply 84 by 168.",
+    "input": "84, 168",
+    "output": "14112"
+  },
+  {
+    "instruction": "Add 85 and 170 together.",
+    "input": "85, 170",
+    "output": "255"
+  },
+  {
+    "instruction": "Subtract 170 from 255.",
+    "input": "255, 170",
+    "output": "85"
+  },
+  {
+    "instruction": "Multiply 85 by 170.",
+    "input": "85, 170",
+    "output": "14450"
+  },
+  {
+    "instruction": "Add 86 and 172 together.",
+    "input": "86, 172",
+    "output": "258"
+  },
+  {
+    "instruction": "Subtract 172 from 258.",
+    "input": "258, 172",
+    "output": "86"
+  },
+  {
+    "instruction": "Multiply 86 by 172.",
+    "input": "86, 172",
+    "output": "14792"
+  },
+  {
+    "instruction": "Add 87 and 174 together.",
+    "input": "87, 174",
+    "output": "261"
+  },
+  {
+    "instruction": "Subtract 174 from 261.",
+    "input": "261, 174",
+    "output": "87"
+  },
+  {
+    "instruction": "Multiply 87 by 174.",
+    "input": "87, 174",
+    "output": "15138"
+  },
+  {
+    "instruction": "Add 88 and 176 together.",
+    "input": "88, 176",
+    "output": "264"
+  },
+  {
+    "instruction": "Subtract 176 from 264.",
+    "input": "264, 176",
+    "output": "88"
+  },
+  {
+    "instruction": "Multiply 88 by 176.",
+    "input": "88, 176",
+    "output": "15488"
+  },
+  {
+    "instruction": "Add 89 and 178 together.",
+    "input": "89, 178",
+    "output": "267"
+  },
+  {
+    "instruction": "Subtract 178 from 267.",
+    "input": "267, 178",
+    "output": "89"
+  },
+  {
+    "instruction": "Multiply 89 by 178.",
+    "input": "89, 178",
+    "output": "15842"
+  },
+  {
+    "instruction": "Add 90 and 180 together.",
+    "input": "90, 180",
+    "output": "270"
+  },
+  {
+    "instruction": "Subtract 180 from 270.",
+    "input": "270, 180",
+    "output": "90"
+  },
+  {
+    "instruction": "Multiply 90 by 180.",
+    "input": "90, 180",
+    "output": "16200"
+  },
+  {
+    "instruction": "Add 91 and 182 together.",
+    "input": "91, 182",
+    "output": "273"
+  },
+  {
+    "instruction": "Subtract 182 from 273.",
+    "input": "273, 182",
+    "output": "91"
+  },
+  {
+    "instruction": "Multiply 91 by 182.",
+    "input": "91, 182",
+    "output": "16562"
+  },
+  {
+    "instruction": "Add 92 and 184 together.",
+    "input": "92, 184",
+    "output": "276"
+  },
+  {
+    "instruction": "Subtract 184 from 276.",
+    "input": "276, 184",
+    "output": "92"
+  },
+  {
+    "instruction": "Multiply 92 by 184.",
+    "input": "92, 184",
+    "output": "16928"
+  },
+  {
+    "instruction": "Add 93 and 186 together.",
+    "input": "93, 186",
+    "output": "279"
+  },
+  {
+    "instruction": "Subtract 186 from 279.",
+    "input": "279, 186",
+    "output": "93"
+  },
+  {
+    "instruction": "Multiply 93 by 186.",
+    "input": "93, 186",
+    "output": "17298"
+  },
+  {
+    "instruction": "Add 94 and 188 together.",
+    "input": "94, 188",
+    "output": "282"
+  },
+  {
+    "instruction": "Subtract 188 from 282.",
+    "input": "282, 188",
+    "output": "94"
+  },
+  {
+    "instruction": "Multiply 94 by 188.",
+    "input": "94, 188",
+    "output": "17672"
+  },
+  {
+    "instruction": "Add 95 and 190 together.",
+    "input": "95, 190",
+    "output": "285"
+  },
+  {
+    "instruction": "Subtract 190 from 285.",
+    "input": "285, 190",
+    "output": "95"
+  },
+  {
+    "instruction": "Multiply 95 by 190.",
+    "input": "95, 190",
+    "output": "18050"
+  },
+  {
+    "instruction": "Add 96 and 192 together.",
+    "input": "96, 192",
+    "output": "288"
+  },
+  {
+    "instruction": "Subtract 192 from 288.",
+    "input": "288, 192",
+    "output": "96"
+  },
+  {
+    "instruction": "Multiply 96 by 192.",
+    "input": "96, 192",
+    "output": "18432"
+  },
+  {
+    "instruction": "Add 97 and 194 together.",
+    "input": "97, 194",
+    "output": "291"
+  },
+  {
+    "instruction": "Subtract 194 from 291.",
+    "input": "291, 194",
+    "output": "97"
+  },
+  {
+    "instruction": "Multiply 97 by 194.",
+    "input": "97, 194",
+    "output": "18818"
+  },
+  {
+    "instruction": "Add 98 and 196 together.",
+    "input": "98, 196",
+    "output": "294"
+  },
+  {
+    "instruction": "Subtract 196 from 294.",
+    "input": "294, 196",
+    "output": "98"
+  },
+  {
+    "instruction": "Multiply 98 by 196.",
+    "input": "98, 196",
+    "output": "19208"
+  },
+  {
+    "instruction": "Add 99 and 198 together.",
+    "input": "99, 198",
+    "output": "297"
+  },
+  {
+    "instruction": "Subtract 198 from 297.",
+    "input": "297, 198",
+    "output": "99"
+  },
+  {
+    "instruction": "Multiply 99 by 198.",
+    "input": "99, 198",
+    "output": "19602"
+  },
+  {
+    "instruction": "Add 100 and 200 together.",
+    "input": "100, 200",
+    "output": "300"
+  },
+  {
+    "instruction": "Subtract 200 from 300.",
+    "input": "300, 200",
+    "output": "100"
+  },
+  {
+    "instruction": "Multiply 100 by 200.",
+    "input": "100, 200",
+    "output": "20000"
+  }
+]

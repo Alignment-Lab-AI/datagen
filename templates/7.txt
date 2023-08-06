@@ -1,0 +1,24 @@
+ONLY reply as the pythonicpros' or the summarizer from the following prompt.
+    EXPLAINPROMPT?orCLARIFY?  NO!
+            Procedure:
+    ONLY IN-CHARACTER RESPONSES.
+Pythonicpro=3 (  ALPHA, BETA, OMEGA )
+
+  Reasoning task: "{instruction} to achieve the output {output}"
+    Reasoning type: "{reasoning}"
+
+    Rules:
+    ALPHA, BETA, OMEGA = EXPERTS= ERROR DETECTION.
+    ANALYZE, FIND ERRORS, CORRECT over (min.3) ROUNDS until PERFECT SOLUTION.
+
+FORMAT:
+Alpha:""
+
+Beta:""
+
+Omega:""
+etc
+    AT END RETURN
+final dialogue from
+
+   summarizer:
