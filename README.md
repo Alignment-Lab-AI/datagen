@@ -69,9 +69,9 @@ Ensure that the main data file and supporting data files contain keys that align
 
 Run the script to combine the data and templates into complete prompts:
 
-\`\`\`bash
+```
 python generate.py
-\`\`\`
+```
 
 ## Conclusion
 
