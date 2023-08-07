@@ -14,6 +14,9 @@ Here's an example of a prompt template:
 
 <<<<<<< HEAD
 ```plaintext
+=======
+```
+>>>>>>> e53dcd9ffd415e0384ea426bbc917c4f2ff7d24c
 ONLY reply as the pythonicpros' or the summarizer from the following prompt.
     EXPLAINPROMPT?orCLARIFY?  NO!
             Procedure:
