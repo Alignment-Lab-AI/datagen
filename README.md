@@ -12,6 +12,7 @@ Templates are stored in the `templates` folder and define the blueprint for gene
 
 Here's an example of a prompt template:
 
+<<<<<<< HEAD
 ```plaintext
 ONLY reply as the pythonicpros' or the summarizer from the following prompt.
     EXPLAINPROMPT?orCLARIFY?  NO!
@@ -68,6 +69,7 @@ Ensure that the main data file and supporting data files contain keys that align
 
 Run the script to combine the data and templates into complete prompts:
 
+<<<<<<< HEAD
 ```bash
 python generate.py
 ```
@@ -106,6 +108,11 @@ ZipJSON is a utility script that pairs the prompts back together with their rela
 ```bash
 python zipjson.py
 ```
+=======
+```
+python generate.py
+```
+>>>>>>> e53dcd9ffd415e0384ea426bbc917c4f2ff7d24c
 
 ## Conclusion
 
