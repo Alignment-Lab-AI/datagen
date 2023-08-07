@@ -30,32 +30,25 @@ def load_supporting_data(folder="data"):
                     supporting_data[key_name] = cycle([json.loads(line) for line in file])
     return supporting_data
 
-def generate_prompts_with_supporting_data():
+def generate_prompts_with_supporting_data(output_file_name="prompts.json"):
     main_data = load_main_data()
     supporting_data = load_supporting_data()
-    templates = load_templates()
+    templates = cycle(load_templates()) # Using cycle to iterate through templates
     
     all_prompts = []
     for item in main_data:
-        for template in templates:
-            prompt = template
-            main_data_unwrapped = {k: v if isinstance(v, str) else str(v[k]) for k, v in item.items()}
-            combined_data = {**main_data_unwrapped, **{k: str(next(v)[k]) for k, v in supporting_data.items()}}
-            for key, value in combined_data.items():
-                prompt = prompt.replace(f'{{{key}}}', value)
-            all_prompts.append({"prompt": prompt})
-            
-    return all_prompts
+        template = next(templates) # Getting the next template in the cycle
+        prompt = template
+        main_data_unwrapped = {k: str(v) for k, v in item.items()} # Converting all values to strings
+        combined_data = {**main_data_unwrapped, **{k: str(next(v)[k]) for k, v in supporting_data.items()}}
+        for key, value in combined_data.items():
+            prompt = prompt.replace(f'{{{key}}}', value)
+        all_prompts.append({"prompt": prompt})
 
-# Example code to generate prompts and save to a file
-final_prompts = generate_prompts_with_supporting_data()
-output_file_path = 'prompts.jsonl'
-with open(output_file_path, 'w') as file:
-    for prompt_obj in final_prompts:
-        file.write(json.dumps(prompt_obj, indent=4) + '\n')
-
+    # Writing the prompts to an indented JSON array
+    with open(output_file_name, 'w') as file:
+        json.dump(all_prompts, file, indent=4)
 
 if __name__ == "__main__":
     generate_prompts_with_supporting_data()
-
 
