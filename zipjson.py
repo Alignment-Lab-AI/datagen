@@ -1,4 +1,5 @@
-import json
+
+import jsonlines
 
 def extract_query(prompt):
     query_index = prompt.find("query:")
@@ -6,13 +7,16 @@ def extract_query(prompt):
         return prompt[query_index + len("query:"):].strip()
     return None
 
-# Reading complete.json
-with open('complete.json', 'r') as file:
-    complete_data = json.load(file)
+# Reading complete.jsonl
+with jsonlines.open('complete.jsonl') as reader:
+    complete_data = list(reader)
 
-# Reading indexed_inputs.json
-with open('indexed_inputs.json', 'r') as file:
-    indexed_inputs_data = json.load(file)
+# Reading indexed_inputs.jsonl
+with jsonlines.open('indexed_inputs.jsonl') as reader:
+    indexed_inputs_data = list(reader)
+
+# Prompting for minimum number of completion tokens
+min_completion_tokens = int(input("Enter the minimum number of completion tokens: "))
 
 # Creating a dictionary to hold the indexed inputs by their index number
 indexed_inputs_dict = {index: extract_query(content['prompt']) for index, content in indexed_inputs_data}
@@ -23,19 +27,32 @@ final_array = []
 for complete_entry in complete_data:
     index, complete_content = complete_entry
     input_value = indexed_inputs_dict.get(index) # Getting the corresponding input by matching the index number
+    
+    # Handling cases where the "usage" key is not found
+    usage_data = complete_content.get('usage')
+    if not usage_data:
+        continue
+
+    completion_tokens = usage_data['completion_tokens'] # Getting the completion tokens count from 'usage'
+
+    # Skip entries with completion tokens less than the specified minimum
+    if int(completion_tokens) < min_completion_tokens:
+        continue
+
     output_value = complete_content['choices'][0]['message']['content'] # Getting the content value for the 'output' key
-    
-    # Creating a dictionary with 'input' and 'output' keys
-    combined_entry = {
-        'input': input_value,
-        'output': output_value
+
+    # Creating the entry and appending to the final array
+    entry = {
+        "index": index,
+        "input": input_value,
+        "output": output_value
     }
-    
-    final_array.append(combined_entry)
+    final_array.append(entry)
 
-# Saving the final array to a new JSON file
-with open('combined_data.json', 'w') as file:
-    json.dump(final_array, file, indent=4)
+# Writing the final array to a JSONL file
+with jsonlines.open('final_output.jsonl', 'w') as writer:
+    for item in final_array:
+        writer.write(item)
 
-print("Data combined and saved to combined_data.json")
+print("Processing completed. The final output is saved in final_output.jsonl.")
 
