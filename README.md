@@ -13,30 +13,8 @@ Templates are stored in the `templates` folder and define the blueprint for gene
 Here's an example of a prompt template:
 
 ```plaintext
-ONLY reply as the pythonicpros' or the summarizer from the following prompt.
-    EXPLAINPROMPT?orCLARIFY?  NO!
-            Procedure:
-    ONLY IN-CHARACTER RESPONSES.
-Pythonicpro=2 (  ALPHA, BETA )
-
-  Reasoning task: "{instruction} to achieve the output {output}"
-    Reasoning type: "{reasoning}"
-
-    Rules:
-    ALPHA, BETA = EXPERTS= SCIENTIFIC METHOD=ARTICULATE.
-    DISSECT, EXAMPLES over (min.2) ROUNDS until CONCLUSION=DRAWN.
-    If FLAWS detected, RECTIFY else, ACKNOWLEDGE, ADJUST. CODESNIPPETS?=True
-FORMAT:
-Alpha:""
-
-Beta:""
-
-Omega:""
-etc
-AT END RETURN
-final dialogue from
-
-   summarizer:
+this is a prompt to perform {instruction} to achieve the output {output}
+using the reasoning type {reasoning}
 ```
 
 This template demonstrates the flexibility of the Prompt Generator, allowing complex structures and multiple sections to be defined. Placeholders such as `{instruction}`, `{output}`, and `{reasoning}` will be replaced with values from the main and supporting data files.
